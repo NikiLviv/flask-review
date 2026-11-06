@@ -10,7 +10,7 @@ def index():
 
 @app.get("/about")
 def about():
-    return "About this project"
+    return "Flask application for project management laboratory work"
 
 
 if __name__ == "__main__":

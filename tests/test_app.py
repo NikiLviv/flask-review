@@ -13,4 +13,4 @@ def test_missing_page():
 def test_about():
     response = app.test_client().get("/about")
     assert response.status_code == 200
-    assert response.get_data(as_text=True) == "About this project"
+    assert response.get_data(as_text=True) == "Flask application for project management laboratory work"
